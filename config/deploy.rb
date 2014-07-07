@@ -1,6 +1,9 @@
 # Capistrano deployment setup based on tutorial by Ben Dixon / @talkingquickly
 # http://www.talkingquickly.co.uk/2014/01/deploying-rails-apps-to-a-vps-with-capistrano-v3/
 
+require "rvm/capistrano"
+require "bundler/capistrano"
+
 set :application, 'ror-azure-demo'
 set :deploy_user, 'root'
 

@@ -38,6 +38,8 @@ end
 # Use unicorn as the app server
 gem 'unicorn'
 
+gem 'rvm-capistrano'
+
 group :development do
   # In development use SQLLite
   gem 'sqlite3'
