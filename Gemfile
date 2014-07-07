@@ -40,6 +40,8 @@ gem 'unicorn'
 
 gem 'rvm-capistrano'
 
+gem 'capistrano-bundler'
+
 group :development do
   # In development use SQLLite
   gem 'sqlite3'
